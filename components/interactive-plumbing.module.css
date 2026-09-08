@@ -1,0 +1,73 @@
+.art {
+  width: 100%;
+  margin: 10px 0 22px;
+}
+.control {
+  display: block;
+  width: 100%;
+  position: relative;
+  border-radius: 18px;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.control:focus-visible {
+  outline: 3px solid #517e9f;
+  outline-offset: 4px;
+}
+.control[data-dragging='true'] {
+  cursor: grabbing;
+}
+.scene {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+}
+.poster,
+.canvas {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.poster {
+  object-fit: contain;
+}
+.canvas {
+  opacity: 0;
+}
+.art[data-renderer='webgl'] .canvas {
+  opacity: 1;
+}
+.art[data-renderer='webgl'] .poster {
+  opacity: 0;
+}
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 12px;
+  color: #597081;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}
+.caption > svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+@media (max-width: 760px) {
+  .art {
+    max-width: 440px;
+    margin: 10px auto 28px;
+  }
+  .caption {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "local-seo-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "map:build": "node scripts/build-map.mjs",
+    "audit:mobile": "node scripts/lighthouse.mjs",
+    "test:logic": "node --test scripts/test-logic.mjs",
+    "test:water": "node --test scripts/test-water.mjs",
+    "art:render": "node scripts/render-plumbing-posters.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "lucide-react": "^1.42.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.185.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "lighthouse": "^13.4.1",
+    "prettier": "^3.9.6",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

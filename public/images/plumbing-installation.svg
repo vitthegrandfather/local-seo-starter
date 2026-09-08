@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <title>Bateria umywalkowa i śrubokręt</title>
+  <circle cx="300" cy="302" r="211" fill="#E6EFF5"/>
+  <g stroke="#132D47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="231" y="178" width="56" height="24" fill="#7FA4BD"/>
+    <path d="M238 139H393A11 11 0 0 1 393 161H307A15 15 0 0 0 292 176V178A7 7 0 0 1 285 185H225A7 7 0 0 1 218 178V159A20 20 0 0 1 238 139Z" fill="#F5C451"/>
+    <path d="M236 147H391" stroke="#FBE3A8" stroke-width="4"/>
+    <path d="M233 198H277A18 18 0 0 1 295 216V238H444A36 36 0 0 1 480 274V294H325A30 30 0 0 0 295 324V461H215V216A18 18 0 0 1 233 198Z" fill="#7FA4BD"/>
+    <path d="M226 448V220A11 11 0 0 1 237 209H271" stroke="#DBE8F0" stroke-width="6"/>
+    <path d="M306 250H440A28 28 0 0 1 468 278" stroke="#DBE8F0" stroke-width="6"/>
+    <path d="M283 448V323A42 42 0 0 1 325 281H467" stroke="#658CA8" stroke-width="6"/>
+    <rect x="436" y="294" width="36" height="18" fill="#7FA4BD"/>
+    <path d="M443 302H465" stroke="#DBE8F0" stroke-width="3"/>
+    <rect x="201" y="458" width="108" height="26" rx="7" fill="#7FA4BD"/>
+    <path d="M212 466H298" stroke="#DBE8F0" stroke-width="3"/>
+    <path d="M454 337C443 354 435 366 435 376A19 19 0 0 0 473 376C473 366 465 354 454 337Z" fill="#F5C451"/>
+    <g transform="translate(155 417) rotate(-38) scale(.78)">
+      <path d="M-4 4V-75L-9-83V-101H9V-83L4-75V4Z" fill="#132D47"/>
+      <rect x="-19" y="-3" width="38" height="87" rx="13" fill="#F5C451"/>
+      <rect x="-23" y="-11" width="46" height="16" rx="7" fill="#F5C451"/>
+      <path d="M-7 18V66M7 18V66" stroke="#132D47" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

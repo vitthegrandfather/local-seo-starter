@@ -1,0 +1,26 @@
+{
+  "retrievedAt": "2026-09-08",
+  "sourceTitle": "Dzielnice Miasta Krakowa",
+  "organization": "Zintegrowana Platforma GIS - Gmina Miejska Kraków",
+  "sourceItem": "https://www.arcgis.com/home/item.html?id=e4de069bb2574615bc795705d8777edc",
+  "sourceModifiedAt": "2024-07-24",
+  "layerEditedAt": "2023-08-09",
+  "sourceHash": "067a5b3ebe261d6a4ce42de446a159adc339b17cb45da257dc315bed12d59693",
+  "boundaryDates": [
+    "2014-03-31"
+  ],
+  "crs": "EPSG:2178",
+  "featureCount": 18,
+  "vertexCount": 23288,
+  "sourceBounds": [
+    7413437.59,
+    5537346.91,
+    7443953.89,
+    5555034.74
+  ],
+  "svgWidth": 900,
+  "svgHeight": 620,
+  "svgBytes": 370502,
+  "gzipBytes": 133510,
+  "sourceMetersPerSvgUnit": 36.85543478260847
+}

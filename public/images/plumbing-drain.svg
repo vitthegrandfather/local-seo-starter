@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <title>Syfon i bęben ze spiralą do udrażniania</title>
+  <circle cx="300" cy="302" r="211" fill="#E6EFF5"/>
+  <g stroke="#132D47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 158H209V300A65 65 0 0 0 339 300V158H418V300A144 144 0 0 1 130 300Z" fill="#7FA4BD"/>
+    <path d="M142 181V300A132 132 0 0 0 406 300V181" stroke="#DBE8F0" stroke-width="7"/>
+    <path d="M197 181V300A77 77 0 0 0 351 300V181" stroke="#658CA8" stroke-width="7"/>
+    <rect x="122" y="148" width="95" height="28" rx="6" fill="#7FA4BD"/>
+    <rect x="331" y="148" width="95" height="28" rx="6" fill="#7FA4BD"/>
+    <path d="M133 156H206M342 156H415" stroke="#DBE8F0" stroke-width="3"/>
+    <path d="M486 382C550 382 548 489 486 495H345" stroke="#132D47" stroke-width="10"/>
+    <path d="M486 382C550 382 548 489 486 495H345" stroke="#7FA4BD" stroke-width="5"/>
+    <rect x="328" y="487" width="23" height="16" rx="5" fill="#F5C451"/>
+    <path d="M396 430L379 472H487L468 430H457L471 460H396L409 430Z" fill="#7FA4BD"/>
+    <path d="M402 331V310A15 15 0 0 1 417 295H448A15 15 0 0 1 463 310V331" stroke="#132D47" stroke-width="9"/>
+    <rect x="413" y="287" width="40" height="16" rx="5" fill="#F5C451"/>
+    <circle cx="434" cy="389" r="66" fill="#132D47"/>
+    <circle cx="434" cy="389" r="56" stroke="#7FA4BD" stroke-width="2"/>
+    <circle cx="434" cy="389" r="23" fill="#F5C451"/>
+    <circle cx="434" cy="389" r="7" fill="#7FA4BD"/>
+    <path d="M434 389L405 426" stroke="#132D47" stroke-width="13"/>
+    <path d="M434 389L405 426" stroke="#F5C451" stroke-width="8"/>
+    <rect x="380" y="420" width="34" height="15" rx="7" fill="#F5C451"/>
+  </g>
+</svg>

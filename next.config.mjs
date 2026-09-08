@@ -1,5 +1,5 @@
-import type { NextConfig } from 'next';
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   poweredByHeader: false,
   async headers() {
     return [
@@ -15,4 +15,5 @@ const nextConfig: NextConfig = {
     ];
   },
 };
+
 export default nextConfig;
